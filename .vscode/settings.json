@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Project_Hackaton_3.sln"
+    "dotnet.defaultSolution": "Hackaton_3.sln"
 }
