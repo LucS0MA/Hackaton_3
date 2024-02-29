@@ -673,7 +673,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2227642279821467768, guid: 326aac67b089c4f4b8601cfaf5602e8a, type: 3}
       propertyPath: moveSpeed
-      value: 500
+      value: 700
       objectReference: {fileID: 0}
     - target: {fileID: 3662455639142419032, guid: 326aac67b089c4f4b8601cfaf5602e8a, type: 3}
       propertyPath: m_Name
@@ -765,7 +765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f2a079ebde0ed14b8b844279bb036a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 500
+  moveSpeed: 700
   jumpForce: 300
   isJumping: 0
   isGrounded: 0
@@ -784,7 +784,7 @@ Animator:
   m_GameObject: {fileID: 2029363995}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9b32f0cf02f99a741927f0457e2e67e5, type: 2}
+  m_Controller: {fileID: 9100000, guid: 61775d661858f384983ac141afd61016, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
