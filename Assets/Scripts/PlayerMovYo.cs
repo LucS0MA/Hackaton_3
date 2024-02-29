@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovYo : MonoBehaviour
 {
     public float moveSpeed;
 

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CameraFollow : MonoBehaviour
+public class Cam : MonoBehaviour
 {
     public GameObject player;
     public float timeOffset;
