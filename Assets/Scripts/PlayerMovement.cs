@@ -17,14 +17,15 @@ public class PlayerMovement : MonoBehaviour
     public SpriteRenderer spriteRenderer;
 
     private Vector3 velocity = Vector3.zero;
+    private float horizontalMovement;
 
-    void FixedUpdate()
+    private void Update()
     {
         isGrounded = Physics2D.OverlapArea(groundCheckLeft.position, groundCheckRight.position);
 
-        float horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
+        horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
 
-        if(Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
             isJumping = true;
             // Activer l'animation de saut dans l'Animator
@@ -32,8 +33,6 @@ public class PlayerMovement : MonoBehaviour
             // Appliquer la force de saut
             rb.AddForce(new Vector2(0f, jumpForce));
         }
-
-        MovePlayer(horizontalMovement);
 
         Flip(rb.velocity.x);
 
@@ -61,7 +60,11 @@ public class PlayerMovement : MonoBehaviour
         {
             isJumping = false;
         }
+    }
 
+    void FixedUpdate()
+    {
+        MovePlayer(horizontalMovement);
     }
 
     void MovePlayer(float _horizontalMovement)
