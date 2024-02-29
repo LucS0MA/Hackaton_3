@@ -24,7 +24,7 @@ public class PlayerHealth : MonoBehaviour
     {
        if(Input.GetKeyDown(KeyCode.H))
         {
-            TakeDamage(20);
+            TakeDamage(60);
 
         } 
     }
@@ -35,10 +35,23 @@ public class PlayerHealth : MonoBehaviour
         {
             currentHealth -= damage;
             healthBar.SetHealth(currentHealth);
-            isInvicible=true;
-            StartCoroutine(InvincibilityFlash());
-            StartCoroutine(HandleInvincibilityDelay());
+
+            if (currentHealth <=0)
+            {
+                Die();
+                return;
+            }else
+            {
+                isInvicible = true;
+                StartCoroutine(InvincibilityFlash());
+                StartCoroutine(HandleInvincibilityDelay());
+            }
         }
+    }
+
+    public void Die()
+    {
+        Debug.Log("Le joueur est dead");
     }
 
     public IEnumerator InvincibilityFlash()
@@ -58,4 +71,6 @@ public class PlayerHealth : MonoBehaviour
         yield return new WaitForSeconds(invincibilityTimeAfterHit);
         isInvicible = false;
     }
+
+
 }
