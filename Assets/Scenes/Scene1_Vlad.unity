@@ -37984,11 +37984,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6175420512323934716, guid: 23fffacd1896b874f93be7a352d84e79, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.63
+      value: -18.9
       objectReference: {fileID: 0}
     - target: {fileID: 6175420512323934716, guid: 23fffacd1896b874f93be7a352d84e79, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2
+      value: -2.15
       objectReference: {fileID: 0}
     - target: {fileID: 6175420512323934716, guid: 23fffacd1896b874f93be7a352d84e79, type: 3}
       propertyPath: m_LocalPosition.z
@@ -38084,6 +38084,19 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 8022097921724761910, guid: 326aac67b089c4f4b8601cfaf5602e8a, type: 3}
   m_PrefabInstance: {fileID: 1801277424}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1046773818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046773799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e80015e1703d52f45b980345d5eb42b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vitesseGrimpe: 5
 --- !u!1 &1090196890
 GameObject:
   m_ObjectHideFlags: 0
@@ -38227,7 +38240,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.31706122, g: 0.5267021, b: 0.5377358, a: 0}
+  m_BackGroundColor: {r: 0.122641504, g: 0.122641504, b: 0.122641504, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -42148,7 +42161,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2227642279821467768, guid: 326aac67b089c4f4b8601cfaf5602e8a, type: 3}
       propertyPath: jumpForce
-      value: 400
+      value: 330
       objectReference: {fileID: 0}
     - target: {fileID: 2227642279821467768, guid: 326aac67b089c4f4b8601cfaf5602e8a, type: 3}
       propertyPath: moveSpeed
@@ -42224,6 +42237,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3662455639142419032, guid: 326aac67b089c4f4b8601cfaf5602e8a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1046773808}
+    - targetCorrespondingSourceObject: {fileID: 3662455639142419032, guid: 326aac67b089c4f4b8601cfaf5602e8a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1046773818}
   m_SourcePrefab: {fileID: 100100000, guid: 326aac67b089c4f4b8601cfaf5602e8a, type: 3}
 --- !u!1 &1818443739
 GameObject:

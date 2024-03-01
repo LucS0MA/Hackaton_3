@@ -6,6 +6,7 @@ TagManager:
   tags:
   - FadeSystem
   - PlayerSpawn
+  - Ladder
   layers:
   - Default
   - TransparentFX
