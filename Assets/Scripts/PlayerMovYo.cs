@@ -19,11 +19,11 @@ public class PlayerMovYo : MonoBehaviour
     private Vector3 velocity = Vector3.zero;
     private float horizontalMovement;
 
-    private void Update()
+    void Update()
     {
         isGrounded = Physics2D.OverlapArea(groundCheckLeft.position, groundCheckRight.position);
 
-        horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
+        horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed;
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
