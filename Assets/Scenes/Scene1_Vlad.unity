@@ -42867,11 +42867,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6175420512323934716, guid: 23fffacd1896b874f93be7a352d84e79, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.15
+      value: 100.85
       objectReference: {fileID: 0}
     - target: {fileID: 6175420512323934716, guid: 23fffacd1896b874f93be7a352d84e79, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.57
+      value: -62.84
       objectReference: {fileID: 0}
     - target: {fileID: 6175420512323934716, guid: 23fffacd1896b874f93be7a352d84e79, type: 3}
       propertyPath: m_LocalPosition.z
@@ -42967,71 +42967,19 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 8022097921724761910, guid: 326aac67b089c4f4b8601cfaf5602e8a, type: 3}
   m_PrefabInstance: {fileID: 1801277424}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1075455209
-PrefabInstance:
+--- !u!114 &1046773818
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 878748329573396621, guid: da975934b29dcda4d84d3843ddc2b8b7, type: 3}
-      propertyPath: m_Name
-      value: Hobbit_Lance (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4016789196883369899, guid: da975934b29dcda4d84d3843ddc2b8b7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.51
-      objectReference: {fileID: 0}
-    - target: {fileID: 4016789196883369899, guid: da975934b29dcda4d84d3843ddc2b8b7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.139
-      objectReference: {fileID: 0}
-    - target: {fileID: 4609550691195585887, guid: da975934b29dcda4d84d3843ddc2b8b7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 152.96
-      objectReference: {fileID: 0}
-    - target: {fileID: 4609550691195585887, guid: da975934b29dcda4d84d3843ddc2b8b7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 7.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4609550691195585887, guid: da975934b29dcda4d84d3843ddc2b8b7, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.15987284
-      objectReference: {fileID: 0}
-    - target: {fileID: 4609550691195585887, guid: da975934b29dcda4d84d3843ddc2b8b7, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4609550691195585887, guid: da975934b29dcda4d84d3843ddc2b8b7, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4609550691195585887, guid: da975934b29dcda4d84d3843ddc2b8b7, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4609550691195585887, guid: da975934b29dcda4d84d3843ddc2b8b7, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4609550691195585887, guid: da975934b29dcda4d84d3843ddc2b8b7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4609550691195585887, guid: da975934b29dcda4d84d3843ddc2b8b7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4609550691195585887, guid: da975934b29dcda4d84d3843ddc2b8b7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: da975934b29dcda4d84d3843ddc2b8b7, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046773799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e80015e1703d52f45b980345d5eb42b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vitesseGrimpe: 5
 --- !u!1 &1090196890
 GameObject:
   m_ObjectHideFlags: 0
@@ -43175,7 +43123,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.31706122, g: 0.5267021, b: 0.5377358, a: 0}
+  m_BackGroundColor: {r: 0.122641504, g: 0.122641504, b: 0.122641504, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -47373,6 +47321,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3662455639142419032, guid: 326aac67b089c4f4b8601cfaf5602e8a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1046773808}
+    - targetCorrespondingSourceObject: {fileID: 3662455639142419032, guid: 326aac67b089c4f4b8601cfaf5602e8a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1046773818}
   m_SourcePrefab: {fileID: 100100000, guid: 326aac67b089c4f4b8601cfaf5602e8a, type: 3}
 --- !u!1 &1818443739
 GameObject:
