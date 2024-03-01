@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene_Vlad.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Level_examp.unity
+    guid: 3cfce97ee87206c44a1360c35ce15dee
   m_configObjects: {}
