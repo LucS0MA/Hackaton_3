@@ -6,6 +6,7 @@ TagManager:
   tags:
   - FadeSystem
   - PlayerSpawn
+  - TreasureAnimation
   layers:
   - Default
   - TransparentFX
